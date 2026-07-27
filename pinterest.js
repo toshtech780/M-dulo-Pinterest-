@@ -7,7 +7,7 @@
 */
 const axios = require('axios');
 
-//➪ Proteção Simula pessoa real 
+//➪ Proteção Simula navegador real 
 const CACHE_PINTEREST = {};
 const CONFIG_PROTECAO = {
 tempoCache: 3600000, // 1 hora = mais estável
